@@ -1,0 +1,20 @@
+[
+    {
+        "logoSrc": "THU_logo.png",
+        "company": "Tsinghua University (THU)",
+        "details": [
+            {
+                "position": "Research Assistant",
+                "department": "Excursion Lab",
+                "time": "2025.9 - Present",
+                "project": "Project Title"
+            },
+            {
+                "position": "Intern",
+                "department": "Computer Science Department",
+                "time": "2024.9 - 2025.6",
+                "project": "Project Title"
+            }
+        ]
+    }
+]
