@@ -1,10 +1,12 @@
-# 远行工作室-个人主页 (ESPH) 模板
+# 远行工作室-个人主页 (ESPH) 模板 ver.2
 
 [English Version](README.md) | 中文版
 
-ESPH 模板是一个功能完整的个人学术主页模板，支持中英文双语切换和亮暗主题切换，适合学术人员、研究人员或任何需要展示个人经历和成果的人士使用。
+基于[第一版的 ESPH 模板](https://github.com/Excursion-Studio/Personal-Homepage-Template/)，这次我们采用 **React** 框架对其进行重构，得到了这个 ESPH V2 模板。两版的代码开发与性能对比点击[这里](summary.md)。
 
-示例页面可以点击[这里](https://excursion-studio.github.io/Personal-Homepage-Template/)预览。
+ESPH V2 模板是一个由 **React** 构建的功能完整的个人学术主页模板，支持中英文双语切换和亮暗主题切换，适合学术人员、研究人员或任何需要展示个人经历和成果的人士使用。
+
+示例页面可以点击[这里](https://excursion-studio.github.io/Personal-Homepage-Template-v2/)预览。
 
 ## 功能特点
 
@@ -21,19 +23,19 @@ ESPH 模板是一个功能完整的个人学术主页模板，支持中英文双
 Personal-Homepage-Template-v2/
 ├── README.md                 # 英文说明文档
 ├── README_zh.md              # 中文说明文档
+├── summary.md                # React vs 原生JS对比分析
 ├── index.html                # 主页面文件
-├── assets/                   # 静态资源文件
+├── assets/                   # 静态资源文件（React构建产物）
 ├── configs/                  # 配置文件
 │   ├── config.json           # 主配置文件
 │   ├── en/                   # 英文配置
 │   └── zh/                   # 中文配置
-├── images/                   # 图片资源
-│   ├── experience/           # 经历相关图片
-│   ├── homepage/             # 主页相关图片
-│   │   ├── info icon/        # 信息图标
-│   │   └── photo/            # 个人照片
-│   └── publication/          # 出版物相关图片
-└── src/                      # React源代码（仅供参考）
+└── images/                   # 图片资源
+    ├── experience/           # 经历相关图片
+    ├── homepage/             # 主页相关图片
+    │   ├── info icon/        # 信息图标
+    │   └── photo/            # 个人照片
+    └── publication/          # 出版物相关图片
 ```
 
 ## 安装和部署
@@ -334,4 +336,4 @@ Personal-Homepage-Template-v2/
 如有任何问题或建议，请通过以下方式联系：
 
 - GitHub: [https://github.com/Excursion-Studio](https://github.com/Excursion-Studio)
-- Email: [conshein_yuanxing@outlook.com](mailto:conshein_yuanxing@outlook.com) （工作室主理人远行的个人邮箱）
+- Email: [excursion-studio@outlook.com](mailto:excursion-studio@outlook.com) （工作室邮箱）

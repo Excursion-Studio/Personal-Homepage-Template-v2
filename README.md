@@ -1,10 +1,12 @@
-# Excursion Studio Personal Homepage (ESPH) Template
+# Excursion Studio Personal Homepage (ESPH) Template ver.2
 
 [中文版](README_zh.md) | English Version
 
-The ESPH template is a fully functional personal academic homepage template that supports bilingual switching (Chinese and English) and light/dark theme switching. It is suitable for academics, researchers, or anyone who needs to showcase their personal experiences and achievements.
+Based on the [first version of the ESPH template](https://github.com/Excursion-Studio/Personal-Homepage-Template/), we have reconstructed it using the **React** framework to create this ESPH V2 template. For a comparison of code development and performance between the two versions, click [here (Chinese version)](summary.md).
 
-You can preview the example page [here](https://excursion-studio.github.io/Personal-Homepage-Template/).
+The ESPH V2 template is a **React**-based fully functional personal academic homepage template that supports bilingual switching (Chinese and English) and light/dark theme switching. It is suitable for academics, researchers, or anyone who needs to showcase their personal experiences and achievements.
+
+You can preview the example page [here](https://excursion-studio.github.io/Personal-Homepage-Template-v2/).
 
 ## Features
 
@@ -21,19 +23,19 @@ You can preview the example page [here](https://excursion-studio.github.io/Perso
 Personal-Homepage-Template-v2/
 ├── README.md                 # English documentation
 ├── README_zh.md              # Chinese documentation
+├── summary.md                # React vs Vanilla JS comparison
 ├── index.html                # Main page file
-├── assets/                   # Static resource files
+├── assets/                   # Static resource files (React build artifacts)
 ├── configs/                  # Configuration files
 │   ├── config.json           # Main configuration file
 │   ├── en/                   # English configuration
 │   └── zh/                   # Chinese configuration
-├── images/                   # Image resources
-│   ├── experience/           # Experience-related images
-│   ├── homepage/             # Homepage-related images
-│   │   ├── info icon/        # Information icons
-│   │   └── photo/            # Personal photo
-│   └── publication/          # Publication-related images
-└── src/                      # React source code (for reference only)
+└── images/                   # Image resources
+    ├── experience/           # Experience-related images
+    ├── homepage/             # Homepage-related images
+    │   ├── info icon/        # Information icons
+    │   └── photo/            # Personal photo
+    └── publication/          # Publication-related images
 ```
 
 ## Installation and Deployment
@@ -334,4 +336,4 @@ Personal introduction will be displayed in the first column on the right side of
 If you have any questions or suggestions, please contact us through:
 
 - GitHub: [https://github.com/Excursion-Studio](https://github.com/Excursion-Studio)
-- Email: [conshein_yuanxing@outlook.com](mailto:conshein_yuanxing@outlook.com) (Personal email of ConsHein, the studio director)
+- Email: [excursion-studio@outlook.com](mailto:excursion-studio@outlook.com) (Studio email)
