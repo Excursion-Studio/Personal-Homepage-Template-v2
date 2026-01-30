@@ -10,14 +10,31 @@
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
     
-    <!-- Preload Font Awesome -->
+    <!-- Preload Critical Resources -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'" />
-    <script type="module" crossorigin src="/Personal-Homepage-Template-v2/assets/index-DIRzWyZp.js"></script>
+    
+    <!-- Preload Critical Images -->
+    <link rel="preload" href="images/homepage/photo/photo.png" as="image" type="image/png" crossorigin="anonymous" />
+    <link rel="preload" href="images/homepage/info icon/location.png" as="image" type="image/png" crossorigin="anonymous" />
+    <link rel="preload" href="images/homepage/info icon/school.png" as="image" type="image/png" crossorigin="anonymous" />
+    <link rel="preload" href="images/homepage/info icon/google scholar.png" as="image" type="image/png" crossorigin="anonymous" />
+    <link rel="preload" href="images/homepage/info icon/github.png" as="image" type="image/png" crossorigin="anonymous" />
+    <link rel="preload" href="images/homepage/info icon/email.png" as="image" type="image/png" crossorigin="anonymous" />
+    <link rel="preload" href="images/homepage/info icon/time.png" as="image" type="image/png" crossorigin="anonymous" />
+    
+    <!-- Preload Config Files -->
+    <link rel="preload" href="configs/config.json" as="fetch" crossorigin="anonymous" />
+    <link rel="preload" href="configs/en/info_en.json" as="fetch" crossorigin="anonymous" />
+    <link rel="preload" href="configs/zh/info_zh.json" as="fetch" crossorigin="anonymous" />
+    
+    <!-- Preconnect for FastAPI (if used) -->
+    <link rel="dns-prefetch" href="https://api.example.com" />
+    <link rel="preconnect" href="https://api.example.com" crossorigin />
+    <script type="module" crossorigin src="/Personal-Homepage-Template-v2/assets/index-BUw9Pye0.js"></script>
     <link rel="modulepreload" crossorigin href="/Personal-Homepage-Template-v2/assets/react-vendor-TH_OxIOI.js">
-    <link rel="stylesheet" crossorigin href="/Personal-Homepage-Template-v2/assets/index-DuNXqmQ2.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
   </body>
 </html>
